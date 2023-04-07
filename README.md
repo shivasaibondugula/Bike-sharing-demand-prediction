@@ -14,10 +14,17 @@
 - For this project, we are using the data provided - [data set](day.csv).
 
 ## Conclusions
-- 
+- The final model which we build is -    
+- **cnt = 0.2519 - 0.0986 X holiday + 0.4515 X temp - 0.1398 X windspeed - 0.1108 X season_spring + 0.0473 X season_winter + 0.2341 X yr_2019 - 0.0727 X month__July + 0.0577 X month__September - 0.0811 X weathersit_2 - 0.2864 X weathersit_3**
 
 ## Technologies Used
-- 
+- Python - version 3.9.13
+- Numpy - version 1.21.5
+- Pandas - version 1.4.4
+- Matplotlib - version 3.5.2
+- Seaborn - version 0.11.2
+- sklearn - version 1.0.2
+- statsmodels - version 0.13.2
 
 ## Acknowledgements
 - This project is developed as part of the Machine learning 1 course required for Executive Post Graduate Diploma in Machine Learning and AI from IIIT Bangalore.
